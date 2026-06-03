@@ -144,9 +144,9 @@ const Footer = () => {
               <a className="group relative hover:text-white transition-colors duration-300 cursor-pointer">
                 <span className="relative z-10">Privacy Policy</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-64 bg-gray-800 border border-gray-600 text-gray-300 text-xs rounded-lg p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
+                <div className="absolute bottom-full left-0 mb-3 w-64 bg-gray-800 border border-gray-600 text-gray-300 text-xs rounded-lg p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
                   We collect and process your personal data to provide our job portal services. Your data is never sold to third parties. You have the right to access, correct, or delete your information at any time.
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-600"></div>
+                  <div className="absolute top-full left-4 border-4 border-transparent border-t-gray-600"></div>
                 </div>
               </a>
               <a className="group relative hover:text-white transition-colors duration-300 cursor-pointer">
@@ -160,9 +160,9 @@ const Footer = () => {
               <a className="group relative hover:text-white transition-colors duration-300 cursor-pointer">
                 <span className="relative z-10">Cookie Policy</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-64 bg-gray-800 border border-gray-600 text-gray-300 text-xs rounded-lg p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
+                <div className="absolute bottom-full right-0 mb-3 w-64 bg-gray-800 border border-gray-600 text-gray-300 text-xs rounded-lg p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
                   We use cookies to enhance your browsing experience, remember your preferences, and analyze site traffic. Essential cookies are required for the site to function. You can manage optional cookies through your browser settings.
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-600"></div>
+                  <div className="absolute top-full right-4 border-4 border-transparent border-t-gray-600"></div>
                 </div>
               </a>
               <Link
