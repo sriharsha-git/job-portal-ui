@@ -298,6 +298,11 @@ const Profile = () => {
 
         setFormData(updatedFormData);
 
+        // Sync name change back to auth context so Navbar reflects it
+        if (formData.name !== user?.name) {
+          await updateProfile({ name: formData.name });
+        }
+
         // Check if profile is now complete and update auth context
         const completeness = calculateProfileCompleteness(updatedFormData);
         const isComplete = completeness === 100;
